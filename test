@@ -1,0 +1,2 @@
+sense.show_message("Hello!", scroll_speed=0.05, text_colour=[255, 0, 0])
+
