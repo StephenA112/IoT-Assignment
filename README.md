@@ -1,6 +1,7 @@
 # Assignment 2: IoT  Environmental Monitor 
 ## Student Name: Stephen Adamson
 ## Student ID: W20119151
+## Git Repo https://github.com/StephenA112/IoT-Assignment/tree/main
 
 # Overview
 This project is a simple IoT connected device system using a Raspberry Pi and SenseHAT sensor to create an environmental monitor.
