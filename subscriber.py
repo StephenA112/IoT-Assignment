@@ -5,9 +5,11 @@ import json
 def on_message(client, userdata, msg):
     data = json.loads(msg.payload.decode())
 
-#json log
-with open("sensor_data.json", "a") as f:
-    file.write(json.dumps(data) + "\n")
+    print(data)
+    
+    #json log
+    with open("sensor_data.json", "a") as file:
+        file.write(json.dumps(data) + "\n")
 
 # Set up MQTT client
 mqtt_client = mqtt.Client()
