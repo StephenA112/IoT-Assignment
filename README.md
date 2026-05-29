@@ -1,4 +1,4 @@
-# Assignemnt 2: IoT  Environmental Monitor 
+# Assignment 2: IoT  Environmental Monitor 
 ## Student Name: Stephen Adamson
 ## Student ID: W20119151
 
