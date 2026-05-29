@@ -80,5 +80,10 @@ iotassignment/
 The project allowed me to demonstrate knowledge of the subject matter and incorporate learnings from other modules on the course. The subject matter is challenging and so the objective was to deliver a functional IoT system as oulined. 
 This project demonstrates how differant layers can work together to deliver a solution. Physical hardware collects ebvironmental data. MQTT is used as the network protocol to transmit the data between the publisher and subscriber components in this project. The logic applied to the sensor data allows system states and average tremperature calculations to be processed.
 All documentation is stored on GitHub. Commits were used to track progress however, not until a late stage in the project with work having taken place without regular commits.
-#Video
+# Video
 https://youtu.be/jW0iV0ZxuIY
+
+# Raspberry Pi Matrix
+<img width="3000" height="4000" alt="image" src="https://github.com/user-attachments/assets/7373357b-1387-4e7a-85ca-cb8becdc03ea" />
+
+
