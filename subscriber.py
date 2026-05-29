@@ -1,8 +1,9 @@
 import paho.mqtt.client as mqtt
+import json
 
 #MQTT callback
 def on_message(client, userdata, msg):
-    print(msg.payload)
+    data = json.loads(msg.payload.decode())
 
 # Set up MQTT client
 mqtt_client = mqtt.Client()
