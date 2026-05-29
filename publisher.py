@@ -19,11 +19,6 @@ client.connect("localhost", 1883, 60)
 
 temp_readings = []
 
-##def get_environmental_data():
-   # temp = sense.get_temperature()
-   # humidity = sense.get_humidity()
-    #return temp, humidity
-
 def get_comfort_level(temp, humidity):
     if 20 <= temp <= 26 and 40 <= humidity <= 60:
         return "COSY"
@@ -45,15 +40,6 @@ while True:
     avg_temp = round(sum(temp_readings) / len(temp_readings), 2)
 
     comfort = get_comfort_level(temp, humidity)
-
-   # if temp > 28:
-    #    status = "HOT HOT HOT!"
-#	color = RED
- #       sense.clear(255, 0, 0)
-  #  else:
-   #     status = "COMFORTABLE :)"
-#	color = GREEN
- #       sense.clear(0, 255, 0)
 
     if comfort == "HOT HOT HOT!":
        sense.show_message("HOT HOT HOT!", text_colour=RED)
