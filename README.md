@@ -23,7 +23,6 @@ The system demonstrates a IoT architecture including:
 - SenseHAT
 - Micro SD card
 
-## Software:
 - Python 3
 - MQTT (Mosquitto broker)
 - Paho MQTT library
