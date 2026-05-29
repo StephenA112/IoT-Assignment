@@ -76,7 +76,9 @@ iotassignment/
 ├── sensor_data.json
 ├── README.md
 
-# REflection
+# Reflection
 The project allowed me to demonstrate knowledge of the subject matter and incorporate learnings from other modules on the course. The subject matter is challenging and so the objective was to deliver a functional IoT system as oulined. 
 This project demonstrates how differant layers can work together to deliver a solution. Physical hardware collects ebvironmental data. MQTT is used as the network protocol to transmit the data between the publisher and subscriber components in this project. The logic applied to the sensor data allows system states and average tremperature calculations to be processed.
 All documentation is stored on GitHub. Commits were used to track progress however, not until a late stage in the project with work having taken place without regular commits.
+#Video
+https://youtu.be/jW0iV0ZxuIY
